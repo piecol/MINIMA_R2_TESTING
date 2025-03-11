@@ -27,6 +27,10 @@ P: PWM
 
 ## 5. SSD
 If testing of SSD is required, intall an "M" key 2230 unit, and secure it with a M2 screw.
+Some operations are required to flash/mount the SSD, please refer to this guide:
+
+https://www.waveshare.com/wiki/Compute_Module_5_IO_Board#Mount
+
 ![20240115_014504](https://github.com/user-attachments/assets/bf5a809a-c4e0-4cfe-a8ca-1d0c2c703480)
 ![20240115_014526](https://github.com/user-attachments/assets/4e64c892-0fde-4393-a0d0-baf07d4e1b57)
 
