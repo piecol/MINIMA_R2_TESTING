@@ -5,6 +5,10 @@
 
 ## 2. nRPIBOOT
 If flashing of OS is required, set the nRPIBOOT microswitch according to the label.
+For falshing an OS, please refer to the following guide:
+
+https://www.waveshare.com/wiki/Raspberry_Pi_5#How_to_Use
+
 If the CM5 is already flashed with OS, reset the switch to opposite side.
 ![nRPIBOOT](https://github.com/user-attachments/assets/4bc92f91-fb2c-4bff-8013-3b35c0da66d9)
 
