@@ -40,7 +40,24 @@ https://www.waveshare.com/wiki/Compute_Module_5_IO_Board#Mount
 
 ## 7. Camera
 For camera testing, please install an official Raspberry Pi V3 camera module according to the pictures.
-Drivers should be already present in the latest OS, for further info about camera interfacing, please refer to following guides:
+Drivers should be already present in the latest OS.
+
+This camera test will use Raspberry Pi V3 camera module based on IMX708.
+- In terminal, edit config.txt file:
+```
+sudo nano /boot/firmware/config.txt
+```
+- add the following into the [cm5] section
+```
+dtoverlay=imx708,cam0
+```
+- reboot
+- use the following to check the camera in the list of available cameras:
+```
+sudo rpicam-hello --list
+```
+
+For further info about camera interfacing, please refer to following guides:
 
 https://www.waveshare.com/wiki/Compute_Module_5_IO_Board#CSI
 
